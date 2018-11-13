@@ -35,5 +35,4 @@ function iLoveTheBeatles(num) {
     whoLovesTheBeatles.push(repeatStringNumTimes(heartBeatles, 8));
   }
   return whoLovesTheBeatles;
-  }
 }
