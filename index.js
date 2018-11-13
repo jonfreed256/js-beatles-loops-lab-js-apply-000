@@ -32,7 +32,7 @@ function iLoveTheBeatles(num) {
   while (num == 7) {
     whoLovesTheBeatles.push(repeatStringNumTimes(heartBeatles, 8));
   }
-  else if (num == 17) {
+  if (num == 17) {
     return "I love the Beatles!"
   }
 }
