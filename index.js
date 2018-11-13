@@ -29,7 +29,7 @@ whoLovesTheBeatles = [];
 function iLoveTheBeatles(num) {
   do {
     whoLovesTheBeatles.push(beatlesLove);
-    num++
+    num++;
   } while (num < 7);
   return whoLovesTheBeatles;
 }
