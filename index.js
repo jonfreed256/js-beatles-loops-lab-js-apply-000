@@ -29,12 +29,12 @@ whoLovesTheBeatles = [];
 var heartBeatles = "I love the Beatles!";
 
 function iLoveTheBeatles(num) {
-  for (num == 7;) {
+  if (num == 7) {
     whoLovesTheBeatles.push(repeatStringNumTimes(heartBeatles, 8));
   }
   return whoLovesTheBeatles;
 
-  for (num == 17;) {
+  else if (num == 17;) {
   }
   return heartBeatles;
 }
