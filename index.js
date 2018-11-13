@@ -24,9 +24,13 @@ function johnLennonFacts(facts) {
 }
 
 // I love the Beatles
+whoLovesTheBeatles = [];
+
+var heartBeatles = "I love the Beatles!";
+
 function iLoveTheBeatles(num) {
-  if (num == 7) {
-      return repeatStringNumTimes("I love the Beatles!", 8);
+  while (num == 7) {
+    whoLovesTheBeatles.push(repeatStringNumTimes(heartBeatles, 8));
   }
   else if (num == 17) {
     return "I love the Beatles!"
