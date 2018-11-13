@@ -30,7 +30,7 @@ var heartBeatles = "I love the Beatles!";
 
 function iLoveTheBeatles(num) {
   if (num == 7) {
-    whoLovesTheBeatles.push(8 * heartBeatles);
+    whoLovesTheBeatles.push(heartBeatles, heartBeatles, heartBeatles, heartBeatles, heartBeatles, heartBeatles, heartBeatles, heartBeatles);
   }
   return whoLovesTheBeatles;
 }
