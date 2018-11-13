@@ -34,6 +34,3 @@ function iLoveTheBeatles(num) {
   }
   return whoLovesTheBeatles;
 }
-  else if (num == 17;) {
-}
-return heartBeatles;
