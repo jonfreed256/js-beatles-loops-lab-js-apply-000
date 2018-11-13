@@ -33,8 +33,4 @@ function iLoveTheBeatles(num) {
     whoLovesTheBeatles.push(repeatStringNumTimes(heartBeatles, 8));
   }
   return whoLovesTheBeatles;
-
-  else if (num == 17;) {
-  }
-  return heartBeatles;
 }
