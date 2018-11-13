@@ -31,5 +31,5 @@ function iLoveTheBeatles(num) {
     whoLovesTheBeatles.push(beatlesLove);
     num++
   } while (num < 7);
-  return whoLovesTheBeatles
+  return whoLovesTheBeatles;
 }
