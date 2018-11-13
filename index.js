@@ -30,7 +30,10 @@ var heartBeatles = "I love the Beatles!";
 
 function iLoveTheBeatles(num) {
   if (num == 7) {
-    whoLovesTheBeatles.push(repeatStringNumTimes(heartBeatles, 8));
+    whoLovesTheBeatles.push(8 * heartBeatles));
   }
   return whoLovesTheBeatles;
 }
+  else if (num == 17;) {
+}
+return heartBeatles;
