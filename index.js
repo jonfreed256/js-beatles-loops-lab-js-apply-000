@@ -30,7 +30,7 @@ var heartBeatles = "I love the Beatles!";
 
 function iLoveTheBeatles(num) {
   if (num == 17) {
-    return heartBeatles
+    return heartBeatles;
   } else if (num == 7) {
     whoLovesTheBeatles.push(repeatStringNumTimes(heartBeatles, 8));
   }
