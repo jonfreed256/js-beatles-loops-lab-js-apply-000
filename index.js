@@ -25,12 +25,13 @@ function johnLennonFacts(facts) {
 
 // I love the Beatles
 whoLovesTheBeatles = [];
+var beatlesLove = "I love the Beatles!";
 
-var heartBeatles = "I love the Beatles!";
+var i = 0;
 
 function iLoveTheBeatles(num) {
-  if (num == 7) {
-    whoLovesTheBeatles.push(heartBeatles, heartBeatles, heartBeatles, heartBeatles, heartBeatles, heartBeatles, heartBeatles, heartBeatles);
-  }
-  return whoLovesTheBeatles;
+  do {
+    i++
+    whoLovesTheBeatles.push(beatlesLove);
+  } while (i < num);
 }
